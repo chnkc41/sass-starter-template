@@ -1,0 +1,25 @@
+{
+    "editor.minimap.enabled": false,
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "gitlens.defaultDateFormat": null,
+
+    "editor.fontSize": 15,
+    "codesnap.backgroundColor": "transparent",
+    "codesnap.boxShadow": "none",
+    "window.zoomLevel": 0,
+
+
+    //"liveSassCompile.settings.autoprefix": []
+    "liveSassCompile.settings.formats": [
+        {
+            "format": "expanded",  // each code word on one line 
+            "extensionName": ".css",  //  File extension where the sass code will be processed.
+            "savePath": "/assets/css/"  //  Path where the Css file is saved
+        }
+    ],
+    "liveSassCompile.settings.autoprefix": null,  //  no prefixes like -webkit, -moz. İf you want the insert prefixes true.
+    "liveSassCompile.settings.generateMap": false,
+    
+    "terminal.integrated.defaultProfile.windows": "Command Prompt", //  so that it does not generate a .map file
+}
